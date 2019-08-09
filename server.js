@@ -13,11 +13,8 @@ const image = require('./controllers/image');
 const db = knex({
   client: 'pg',
   connection: {
-    host: 'postgresql-aerodynamic-68965',
-    port: '5432',
-    user: 'benjaminreilly',
-    password : '',
-    database: 'face-recognition-brain'
+    host: process.env.DATABASE_URL,
+    ssl: true
   }
 });
 
