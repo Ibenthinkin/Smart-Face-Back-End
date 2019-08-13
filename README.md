@@ -10,12 +10,14 @@ I made this app to showcase clean, simple react code,rock-solid authentication, 
 Just sign in and paste a link to a photo in the box.  Smart Face will detect faces in it, and put a blue box around the face!  
 
 ## Screen Shots
-![](signIn.png)
-![](idris.png)
+![](./ScreenShots/signIn.png)
+![](./ScreenShots/mainPage.png)
+![](./ScreenShots/idris.png)
 
 # Interesting Edge Cases
-![](muppet.png)
-![](buttFace.png)
+![](./ScreenShots/muppet.png)
+![](./ScreenShots/buttFace.png)
+
 
 ## Installation
 
